@@ -31,10 +31,10 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:padding="8dp"
-                android:background="?attr/colorPrimaryContainer"
+                android:background="#DBC9E4"
                 app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium"
                 android:src="@drawable/ic_flight_takeoff"
-                app:tint="?attr/colorOnPrimaryContainer"
+                app:tint="#196AD3"
                 android:contentDescription="@string/depart"/>
 
             <LinearLayout
@@ -91,10 +91,10 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:padding="8dp"
-                android:background="?attr/colorPrimaryContainer"
+                android:background="#DBC9E4"
                 app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium"
                 android:src="@drawable/ic_flight_land"
-                app:tint="?attr/colorOnPrimaryContainer"
+                app:tint="#196AD3"
                 android:contentDescription="@string/arrive"/>
 
             <LinearLayout
@@ -140,8 +140,8 @@
                 android:layout_height="wrap_content"
                 style="@style/Widget.Material3.Button.IconButton.Outlined"
                 app:icon="@drawable/ic_delete"
-                app:iconTint="?attr/colorError"
-                app:strokeColor="?attr/colorOutlineVariant"
+                app:iconTint="#040404"
+                app:strokeColor="#0B0B0B"
                 android:contentDescription="@string/remove_from_favorites"/>
         </LinearLayout>
     </LinearLayout>
